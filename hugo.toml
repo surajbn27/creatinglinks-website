@@ -22,13 +22,13 @@ theme = "ananke"
     url = "/contact/"
     weight = 30
 
-[menu]
-
   [[menu.main]]
     identifier = "about"
     name = "About Us"
     url = "/about/"
     weight = 10
+
+[menu]
 
 [params]
   # 'avenir' is a clean, modern font. 'bg-near-white' is softer than pure white.
