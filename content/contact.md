@@ -10,7 +10,7 @@ Bengaluru, Karnataka 560043
 
 ### Call or Email
 * **Phone:** (555) 123-4567
-* **Email:** hello@myawesomeclinic.com
+* **Email:** support@creatinglinks.in
 * **Hours:** Sun-Sat, 9:00am - 6:30pm
 
 ---
