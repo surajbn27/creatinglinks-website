@@ -2,7 +2,14 @@ baseURL = 'https://bright-tanuki-69f19b.netlify.app/'
 languageCode = 'en-us'
 title = 'Creating Links'
 theme = "ananke"
+
 [menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About Us"
+    url = "/about/"
+    weight = 10
 
   [[menu.main]]
     identifier = "services"
@@ -22,18 +29,11 @@ theme = "ananke"
     url = "/contact/"
     weight = 30
 
-  [[menu.main]]
-    identifier = "about"
-    name = "About Us"
-    url = "/about/"
-    weight = 10
-
-[menu]
-
 [params]
   # 'avenir' is a clean, modern font. 'bg-near-white' is softer than pure white.
-    body_classes = "avenir bg-near-white"
-    copyright = "Creating-Links © 2026. All Rights Reserved."
+  body_classes = "avenir bg-near-white"
+  copyright = "Creating-Links © 2026. All Rights Reserved."
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
