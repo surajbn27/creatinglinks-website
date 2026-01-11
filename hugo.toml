@@ -1,0 +1,32 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Creating Links'
+theme = "ananke"
+[menu]
+
+  [[menu.main]]
+    identifier = "services"
+    name = "Our Services"
+    url = "/services/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "team"
+    name = "Meet the Team"
+    url = "/team/"
+    weight = 20
+
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact Us"
+    url = "/contact/"
+    weight = 30
+
+[params]
+  # 'avenir' is a clean, modern font. 'bg-near-white' is softer than pure white.
+    body_classes = "avenir bg-near-white"
+    copyright = "Creating-Links © 2026. All Rights Reserved."
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

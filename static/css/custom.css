@@ -1,0 +1,28 @@
+/* 1. Make the big header background a calming Teal */
+.bg-black {
+    background-color: #267c88 !important;
+}
+
+/* 2. Make buttons rounded (friendlier) */
+.f6.link.dim.br1.ph3.pv2.mb2.dib.white.bg-black {
+    border-radius: 20px;
+    background-color: #267c88;
+}
+
+/* 3. Change text selection color (fun detail) */
+::selection {
+    background: #fbf1a9; /* Soft yellow highlight */
+}
+
+/* 4. Improve the Team Grid Cards */
+.bg-white.ba.b--black-10 {
+    border-color: transparent; /* Remove harsh borders */
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); /* Add soft shadow */
+    border-radius: 8px; /* Round the card corners */
+    transition: transform 0.2s; /* Smooth animation */
+}
+
+/* Hover effect for cards */
+.bg-white.ba.b--black-10:hover {
+    transform: translateY(-5px); /* Lift up slightly when hovered */
+}

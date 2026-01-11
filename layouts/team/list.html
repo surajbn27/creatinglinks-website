@@ -1,0 +1,37 @@
+{{ define "main" }}
+<main class="pb7" role="main">
+
+  <article class="pa3 pa4-ns nested-copy-line-height">
+    <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray">
+      <h1 class="f1">{{ .Title }}</h1>
+      {{ .Content }}
+    </section>
+
+    <div class="flex flex-wrap justify-center mw9 center">
+
+      {{ range .Paginator.Pages }}
+        <div class="w-100 w-50-m w-third-l pa3">
+
+            <div class="bg-white ba b--black-10 dim pointer">
+                <a href="{{ .RelPermalink }}" class="db link dim tc">
+
+                    {{ with .Params.featured_image }}
+                    <div class="pa3">
+                        <img src="{{ . }}" alt="Photo of {{ $.Title }}" class="br-100 h4 w4 dib ba b--black-05 object-cover">
+                    </div>
+                    {{ end }}
+
+                    <div class="pa3">
+                        <h2 class="f5 f4-ns mb0 black-90">{{ .Title }}</h2>
+                        <h3 class="f6 f5-ns fw4 mt2 black-60">{{ .Params.description }}</h3>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+      {{ end }}
+
+    </div>
+  </article>
+</main>
+{{ end }}
