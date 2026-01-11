@@ -21,6 +21,6 @@ We use play-based techniques to make learning fun!
 | Feature       | Details                  |
 |:--------------|:-------------------------|
 | **Duration**  | 45 Minutes               |
-| **Age Group** | 2 - 12 Years             |
+| **Age Group** | 2 - 18 Years             |
 | **Setting**   | 1-on-1 (Parents welcome) |
 | **Frequency** | Weekly or Bi-weekly      |

@@ -6,4 +6,6 @@ featured_image: "https://images.unsplash.com/photo-1596495577886-d920f1fb7238?q=
 description: "Developing skills for the job of living."
 weight: 2
 ---
+## What is Occupation Therapy?
+
 We help children develop the fine motor skills needed for daily tasks, from handwriting to tying shoelaces.
