@@ -8,7 +8,7 @@ theme = "ananke"
     identifier = "services"
     name = "Our Services"
     url = "/services/"
-    weight = 10
+    weight = 15
 
   [[menu.main]]
     identifier = "team"
@@ -21,6 +21,14 @@ theme = "ananke"
     name = "Contact Us"
     url = "/contact/"
     weight = 30
+
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About Us"
+    url = "/about/"
+    weight = 10
 
 [params]
   # 'avenir' is a clean, modern font. 'bg-near-white' is softer than pure white.
