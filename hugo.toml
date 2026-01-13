@@ -35,6 +35,8 @@ theme = "ananke"
   copyright = "Creating-Links © 2026. All Rights Reserved."
   # Logo:
   site_logo = "/images/logo.png"
+  # Teal Theme
+  custom_css = ["css/custom.css"]
 
 [markup]
   [markup.goldmark]
