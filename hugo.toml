@@ -9,13 +9,13 @@ theme = "ananke"
     identifier = "about"
     name = "About Us"
     url = "/about/"
-    weight = 10
+    weight = 15
 
   [[menu.main]]
     identifier = "services"
     name = "Our Services"
     url = "/services/"
-    weight = 15
+    weight = 10
 
   [[menu.main]]
     identifier = "team"
