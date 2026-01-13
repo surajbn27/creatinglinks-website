@@ -33,6 +33,8 @@ theme = "ananke"
   # 'avenir' is a clean, modern font. 'bg-near-white' is softer than pure white.
   body_classes = "avenir bg-near-white"
   copyright = "Creating-Links © 2026. All Rights Reserved."
+  # Logo:
+  site_logo = "/images/logo.png"
 
 [markup]
   [markup.goldmark]
