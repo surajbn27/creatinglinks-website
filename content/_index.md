@@ -3,7 +3,7 @@ title: "Creating Links"
 date: 2026-01-12
 draft: false
 featured_image: "/images/clinic-banner.jpg"
-description: "Professional Mental Health & Wellness Services in Bengaluru."
+description: "Rehabilitation and Wellness Center"
 ---
 
 Welcome to **Creating Links**. 
